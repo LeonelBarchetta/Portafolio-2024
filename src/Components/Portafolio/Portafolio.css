@@ -1,0 +1,147 @@
+.portafolio{
+    padding: 3rem 10rem;
+}
+
+#light .portafolio{
+    border-bottom: 0.1rem solid rgb(229, 229, 229) ;
+}
+
+#dark .portafolio{
+    border-bottom: 0.1rem solid rgb(0, 0, 0) ;
+}
+
+.subtitulo{
+    margin: 4rem 0;
+}
+
+.subtitulo h1{
+    font-size: 3rem;
+}
+
+#light .subtitulo h1{
+    color: black;
+}
+
+#dark .subtitulo h1{
+    color: white;
+}
+
+.subtitulo img{
+    height: 2.5rem;
+    margin-left: 0.5rem;
+}
+
+.subtitulo p{
+    font-size: 1.2rem;
+}
+
+#light .subtitulo p{
+    color: black;
+}
+
+#dark .subtitulo p{
+    color: white;
+}
+
+.portafolio .div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.pagina h2{
+    padding: 1rem;
+}
+
+#light .pagina h2{
+    color: black;
+}
+
+#dark .pagina h2{
+    color: white;
+}
+
+.pagina{
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    width: 30rem;
+    box-shadow: -1rem 0 0 #F5B638;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.pagina:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.pagina img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+@media (max-width:1500px){
+    .portafolio{
+        padding: 2rem 5rem;
+    }
+    
+    .subtitulo{
+        margin: 3.5rem 0;
+    }
+    
+    .subtitulo h1{
+        font-size: 2rem;
+    }
+    
+    .subtitulo img{
+        height: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .subtitulo p{
+        font-size: 1rem;
+    }
+
+    
+    .pagina h2{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+    
+    .pagina{
+        width: 15rem;
+    }
+    
+  
+    
+}
+
+@media (max-width:720px){
+    
+    .subtitulo h1{
+        font-size: 3rem;
+    }
+    
+    .subtitulo img{
+        height: 2rem;
+    }
+    
+    .subtitulo p{
+        font-size: 1.5rem;
+    }
+
+    .portafolio .div{
+        flex-wrap: wrap;
+    }
+
+    .pagina h2{
+        font-size: 2rem;
+        padding: 0.8rem;
+    }
+    
+    .pagina{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}

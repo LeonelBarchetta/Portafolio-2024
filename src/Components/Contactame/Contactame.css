@@ -1,0 +1,157 @@
+.contacto{
+    padding: 3rem 10rem;
+}
+
+#light .contacto{
+    border-bottom: 0.1rem solid rgb(229, 229, 229) ;
+}
+
+#dark .contacto{
+    border-bottom: 0.1rem solid rgb(0, 0, 0) ;
+}
+
+.contacto form{
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 60%;
+    box-shadow: -1rem 0rem 0 #F5B638;
+}
+
+.contacto form label{
+    margin-right: 2rem;
+}
+
+#light .contacto form label{
+    color: black;
+}
+
+#dark .contacto form label{
+    color: white;
+}
+
+.contacto form div{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto form input{
+    outline: none;
+    height: 3.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    box-shadow: -0.5rem 0rem 0 #F5B638;
+}
+
+#light .contacto form input{
+    background-color: white;
+}
+
+#dark .contacto form input{
+    background-color: rgb(141, 141, 141);
+}
+
+
+.contacto form textarea{
+    outline: none;
+    height: 6rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    box-shadow: -0.5rem 0rem 0 #F5B638;
+    resize: none;
+}
+
+#light .contacto form textarea{
+    background-color: white;
+}
+
+#dark .contacto form textarea{
+    background-color: rgb(141, 141, 141);
+}
+
+.contacto form button{
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: bolder;
+    box-shadow: -0.5rem 0rem 0 #F5B638;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    transition: all 0.3s;
+}
+
+#light .contacto form button{
+    background-color: white;
+    color: black;
+}
+
+#dark .contacto form button{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.contacto form button:hover{
+    cursor: pointer;
+    background-color: #F5B638;
+}
+
+.visita{
+    font-size: 5rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 60%;
+    box-shadow: -1rem 0rem 0 #F5B638;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width:1500px){
+    .contacto{
+        padding: 2rem 5rem;
+    }
+    
+    
+}
+
+@media (max-width:720px){
+    .contacto form{
+        width: 100%;
+    }
+
+    .contacto form label{
+        font-size: 1.5rem;
+    }
+
+    .contacto form input{
+        height: 5rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .contacto form textarea{
+        height: 20rem;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    .contacto form button{
+        font-size: 2rem;
+        height: 6rem;
+        width: 13rem;
+    }
+}

@@ -1,0 +1,173 @@
+.resumen{
+    padding: 3rem 10rem;
+}
+
+#light .resumen{
+    border-bottom: 0.1rem solid rgb(229, 229, 229) ;
+}
+
+#dark .resumen{
+    border-bottom: 0.1rem solid rgb(0, 0, 0) ;
+}
+
+.boton{
+    font-size: 2rem;
+    height: 5rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    background-color: white;
+    width: 40%;
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+    box-shadow: 0rem 0rem 0 #F5B638;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    transition: all 0.3s;
+}
+
+#light .boton{
+    background-color: white;
+    color: black;
+}
+
+#dark .boton{
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+.boton:hover{
+    top: 0;
+    left: 0;
+    box-shadow: -1rem -1rem 0 #F5B638;
+}
+
+.botonMarcado{
+    font-size: 2rem;
+    height: 5rem;
+    border: 0.2rem solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    background-color: #F5B638;
+    width: 40%;
+    box-shadow: -1rem -1rem 0 #F5B638;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .div{
+    padding: 1.5rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    width: 30rem;
+    height: 25rem;
+    box-shadow: -1rem 0 0 #F5B638;
+}
+
+.card .div p{
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+#light .card .div p{
+    color: black;
+}
+
+#dark .card .div p{
+    color: white;
+}
+
+.card .div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card .div div img{
+    height: 11.5rem;
+}
+
+@media (max-width:1500px){
+    .resumen{
+        padding: 2rem 5rem;
+    }
+    
+    .boton{
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+    
+    .botonMarcado{
+        font-size: 1.5rem;
+        height: 4rem;
+    }
+
+    .card .div{
+        padding: 1rem;
+        border: 0.2rem solid gray;
+        border-radius: 1rem;
+        width: 16rem;
+        height: 18.5rem;
+        box-shadow: -1rem 0 0 #F5B638;
+    }
+    
+    .card .div p{
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+
+    
+    .card .div div img{
+        height: 5rem;
+    }
+    
+}
+
+
+
+@media (max-width:720px){
+    .boton{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 15rem;
+        top: 0;
+        left: 0;
+    }
+    
+    .botonMarcado{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 15rem;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .card .div{
+        width: 100%;
+        height: 18.5rem;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .card .div p{
+        font-size: 1.5rem;
+    }
+
+    
+    .card .div div img{
+        height: 5rem;
+    }
+}
