@@ -171,3 +171,78 @@
         height: 5rem;
     }
 }
+
+@media (max-width:720px){
+    .boton{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 15rem;
+        top: 0;
+        left: 0;
+    }
+    
+    .botonMarcado{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 15rem;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .card .div{
+        width: 100%;
+        height: 18.5rem;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .card .div p{
+        font-size: 1.5rem;
+    }
+
+    
+    .card .div div img{
+        height: 5rem;
+    }
+}
+
+@media (max-width:500px){
+    .resumen{
+        padding: 2rem 2rem;
+    }
+    .resumen div{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .boton{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .botonMarcado{
+        font-size: 1.8rem;
+        height: 6rem;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .card .div{
+        width: 100%;
+        height: 21rem;
+    }
+    
+    .card .div p{
+        font-size: 1.2rem;
+    }
+
+}

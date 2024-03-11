@@ -403,3 +403,87 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width:500px){
+    .inicio{
+        padding: 0 2rem;
+        padding-top: 12rem;
+    }
+    
+    .img{
+        width: 20rem;
+        height: 20rem;
+    }
+    
+    .img img{
+        height: 25rem;
+        
+    }
+    
+    .titulo .flecha{
+        height: 1rem;
+        margin-left: 0.5rem;
+    }
+    
+    
+    .titulo{
+        height: 100%;
+    }
+    
+    .titulo h3{
+        font-size: 1.2rem;
+    }
+    
+    .titulo h1{
+        font-size: 3rem;
+        width: 100%;
+    }
+    
+    .titulo h2{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+    
+    .titulo .texto{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+
+    .titulo .div{
+        width: 100%;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills{
+        width: 100%;
+    }
+    
+    .skills p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .skills div{
+        width: 100%;
+        padding-bottom: 1.5rem;
+    }
+    
+    .skills div a{
+        height: 5rem;
+        width: 5rem;
+    }
+    
+    .skills div a img{
+        height: 3rem;
+    }
+    .descarga{
+        width: 100%;
+    }
+}

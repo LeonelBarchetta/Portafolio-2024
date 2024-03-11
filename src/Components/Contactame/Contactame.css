@@ -155,3 +155,31 @@
         width: 13rem;
     }
 }
+
+@media (max-width:500px){
+    .contacto{
+        padding: 2rem 2rem;
+    }
+    .contacto form{
+        width: 100%;
+    }
+
+    .contacto form label{
+        font-size: 1.2rem;
+    }
+
+    .contacto form input{
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .contacto form textarea{
+        font-size: 1.5rem;
+    }
+
+    .contacto form button{
+        font-size: 2rem;
+        height: 6rem;
+        width: 100%;
+    }
+}

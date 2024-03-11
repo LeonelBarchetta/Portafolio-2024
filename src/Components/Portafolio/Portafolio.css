@@ -145,3 +145,31 @@
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width:500px){
+    .portafolio{
+        padding: 2rem 2rem;
+    }
+    
+    .subtitulo h1{
+        font-size: 2rem;
+    }
+    
+    .subtitulo img{
+        height: 1.5rem;
+    }
+    
+    .subtitulo p{
+        font-size: 1.2rem;
+    }
+
+    .pagina h2{
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+    
+    .pagina{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
